@@ -54,3 +54,7 @@ Welcome to my repository! This collection showcases end-to-end Data Science solu
 * **Model:** Random Forest & XGBoost.
 * **Highlights:** Extensive Feature Engineering (Tenure, Contract Type) and handling class imbalance using weight balancing.
 * **Metric focus:** Optimized for Recall to identify every possible at-risk customer.
+
+## 👤 Author
+**Injeela Ansari** 
+*Final Year Student | Data Science & Business Analytics* *HSNC University*
