@@ -1,49 +1,56 @@
-# Advanced-Data-Science-Internship-Projects
-Welcome to my repository! This project is a collection of end-to-end Data Science solutions developed during my internship at Nascent IT Ventures. It covers everything from Computer Vision and Natural Language Processing (NLP) to Predictive Analytics.
+# 🚀 Advanced-Data-Science-Internship-Projects
 
-🛠️ Tech Stack
-Languages: Python (Pandas, NumPy, Scikit-Learn)
 
-Computer Vision: OpenCV
+### **Nascent IT Ventures | Month 2 Portfolio**
 
-NLP: NLTK, XGBoost
+Welcome to my repository! This collection showcases end-to-end Data Science solutions developed during my internship at **Nascent IT Ventures**. The projects span across Computer Vision, Predictive Modeling, and Natural Language Processing (NLP).
 
-Visualization: Matplotlib, Seaborn
+---
 
-Tools: Jupyter Notebook, Git
+## 🛠️ Tech Stack
 
-📁 Projects Overview
-1. AI-Powered Object Counter 🎥
-A Computer Vision application that detects and counts moving objects in a video stream in real-time.
+* **Languages:** Python (Pandas, NumPy, Scikit-Learn)
+* **Computer Vision:** OpenCV
+* **NLP:** NLTK, XGBoost, TF-IDF
+* **Visualization:** Matplotlib, Seaborn
+* **Tools:** Jupyter Notebook, Git, Joblib
 
-Key Features: Background subtraction, contour detection, and centroid tracking.
+---
 
-Output: annotated_output.avi with live count HUD.
+## 📁 Projects Overview (Sequential)
 
-2. Customer Churn Prediction 📉
-Predicting whether a customer will leave a service based on their usage patterns and demographics.
+### 1. 🎥 Real-Time Object Counter (OpenCV)
 
-Model: Random Forest / XGBoost.
+**Objective:** Real-time detection and counting of moving objects in a video stream.
 
-Highlights: Extensive Feature Engineering and Handling Class Imbalance.
+* **Process:** Implemented Background Subtraction (MOG2), Contour Detection, and Centroid Tracking.
+* **Output:** Generates an `annotated_output.avi` video featuring a Live Object Counter HUD.
 
-Metrics: Optimized for Recall to capture maximum potential churners.
+### 2. 🎨 Image Cartoonifier (OpenCV)
 
-3. Sentiment Analysis System 🎭
-A text classification tool that categorizes user feedback into Positive or Negative sentiments.
+**Objective:** Transform standard photographs into stylized cartoon or watercolor-style art using image processing.
 
-Approach: TF-IDF Vectorization with Logistic Regression.
+* **Techniques:** Bilateral filtering (to smooth colors while preserving edges) and Adaptive Thresholding (to create the "sketch" effect).
+* **Key Features:** Modular Python script with command-line arguments for different styles.
 
-Visuals: Includes a Confusion Matrix heatmap for error analysis.
+### 3. 🎭 Sentiment Analysis System (NLP)
 
-4. Smart Email Spam Detector 🛡️
-An intelligent filter to distinguish between 'Ham' (normal) and 'Spam' messages.
+**Objective:** Classify user feedback/reviews into Positive or Negative sentiments.
 
-Algorithms: Compared Random Forest vs. XGBoost.
+* **Approach:** Used TF-IDF Vectorization for text-to-numeric conversion followed by Logistic Regression.
+* **Evaluation:** Includes a Confusion Matrix heatmap to visualize model performance.
 
-Result: High precision to ensure important emails aren't marked as spam.
+### 4. 🛡️ Spam Detection System (NLP)
 
-5. Image Cartoonifier 🎨
-A creative Python script that transforms standard photographs into stylized cartoon or watercolor art.
+**Objective:** An intelligent classification system to distinguish between 'Ham' and 'Spam' messages.
 
-Techniques: Bilateral filtering for edge smoothing and adaptive thresholding for sketching.
+* **Algorithms:** Comparative study between Random Forest and XGBoost.
+* **Achievement:** Achieved high Precision to ensure legitimate emails never land in the spam folder.
+
+### 5. 📉 Customer Churn Analytics & Prediction
+
+**Objective:** Analyze customer behavior to predict potential churn for a subscription-based service.
+
+* **Model:** Random Forest & XGBoost.
+* **Highlights:** Extensive Feature Engineering (Tenure, Contract Type) and handling class imbalance using weight balancing.
+* **Metric focus:** Optimized for Recall to identify every possible at-risk customer.
